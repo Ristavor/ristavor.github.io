@@ -297,16 +297,12 @@ body {
   display: block;
   min-height: 120px;
   min-width: 100%;
-  max-width: 100%;
+  min-width: 100%;
 }
 
 .page-footer {
   padding-top: 45px;
   padding-bottom: 20px;
-}
-
-.footer-middle {
-  margin-bottom: 20px;
 }
 
 .footer-menu {
