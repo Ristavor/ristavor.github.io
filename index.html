@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Cosmodrome "Plesetsk"</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="page-header">
+      <div class="container">
+        <div class="header-top clearfix">
+          <div class="header-logo">
+            <img src="img/logo.png" alt="Plesetsk" width="110" height="110">
+          </div>
+          <div class="spaceport">
+            Космодром<br>"Плесецк"
+          </div>
+          <ul class="main-nav clearfix">
+            <li><a href="#csmdr">О космодроме</a></li>
+            <li><a href="#ct">О Мирном</a></li>
+            <li><a href="#ask">Задать вопросы</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="cosmodrome" id="csmdr">
+      <div class="container">
+        <h2 class="section-title">Краткие факты о космодроме</h2>
+        <p>Космодром Плесецк является наиболее северным космодромом не только России, но и всего мира. Космодром расположен в 180 км к югу от Архангельска. Его площадь составляет почти 2 тысячи квадратных километров, и представляет собой область, вытянувшуюся с запада на восток на 80 км и с севера на юг на 50 км</p>
+        <p>На начало 2018 года космодром находится на 1-ом месте на планете по количеству космических запусков и количеству запущенных космических аппаратов: 1618 и 2134 соответственно, что составляет 50.3% и 51.2% от суммарных показателей СССР и России. В период наибольшей активности космодрома в 70-80х годах 20 века отсюда осуществлялось больше 40% ежегодных мировых запусков на орбиту (до 61.3% в 1979 году)</p>
+        <p>Космодром занимал 1-ое место по ежегодным запускам в космос с 1969 по 1993 годы. Максимальное ежегодное количество запусков с космодрома на орбиту было выполнено в 1977 году – 70</p>
+      </div>
+    </div>
+
+
+    <div class="city" id="ct">
+      <div class="container">
+        <h2 class="section-title">Закрытое административно-территориальное образование</h2>
+        <p>Мирный - город в Архангельской области России, место расположения космодрома Плесецк. Образует городской округ «Мирный» со статусом закрытого административно-территориального образования (ЗАТО) с 1993 года.</p>
+        <p>До начала строительства объекта «Ангара» (в дальнейшем полигона, космодрома) на южной оконечности современного города располагалась деревня Плесцы с почтовой станцией на Петровском тракте из Архангельска в Санкт-Петербург. Первое историческое упоминание о деревне Плесцы относится к 1760 году, и связано оно со строительством часовни в честь Казанской иконы Божией Матери. В 1919—1920 годах во время Гражданской войны деревня Онежского уезда была местом ожесточённых боёв красных и белых, на стороне которых были и сражались союзные войска Антанты.</p>
+        <p>На северной оконечности современного города располагался посёлок «Канифольный завод», в котором с 1927 года по 1958 год действовал канифольно-скипидарный завод. Поселок к 1960 году расселили.</p>
+        <p>Новый населённый пункт возник в 1957 году, как военный городок соединения межконтинентальных баллистических ракет.</p>
+        <p>Впоследствии на базе соединения был создан сначала полигон, а позже космодром Плесецк.</p>
+        <p>Обратите внимание! Город Мирный имеет статус ЗАТО. Это значит, что для проезда в город необходим пропуск. Перед поездкой убедитесь, что пропуск для вас выписан.</p>
+      </div>
+    </div>
+
+
+    <div class="gallery">
+      <div class="container">
+        <h2 class="section-title">Галерея</h2>
+        <div class="clearfix">
+          <div class="gallery-item">
+            <img src="img/cosmodrome.jpg" alt="космодром" width="306" height="206">
+            <h3>Космодром</h3>
+          </div>
+          <div class="gallery-item">
+            <img src="img/city.jpg" alt="город" width="306" height="206">
+            <h3>Город</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="asking" id="ask">
+      <div class="container">
+        <img src="img/mail.png" alt="письмо">
+        <h2 class="section-title">Хотите узнать о чем-то поподробнее? Задайте вопрос</h2>
+        <form class="asking-form" action="/keksby-mail" method="post">
+          <div class="asking-form-group">
+            <label for="first-name">Ваша фамилия</label>
+            <input type="text" name="first-name" id="first-name">
+            <label for="last-name">Ваше имя</label>
+            <input type="text" name="last-name" id="last-name">
+            <label for="patronymic">Ваше отчество (при наличии)</label>
+            <input type="text" name="patronymic" id="patronymic">
+          </div>
+          <div class="clearfix">
+            <div class="asking-form-group asking-form-group-left-part">
+              <label for="email">Ваша электронная почта</label>
+              <input type="text" name="email" id="email">
+            </div>
+            <div class="asking-form-group asking-form-group-right-part">
+              <label for="phone">Ваш контактный телефон</label>
+              <input type="text" name="phone" id="phone">
+            </div>
+          </div>
+          <div class="asking-form-group">
+            <label for="topic">Область Вашего вопроса</label>
+            <select name="topic" id="topic">
+              <option value="1">Космодром "Плесецк"</option>
+              <option value="2">Город Мирный</option>
+              <option value="3">Другая область</option>
+            </select>
+          </div>
+          <div class="asking-form-group">
+            <label for="message">Текст обращения</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <input class="btn" type="submit" value="Отправить">
+        </form>
+      </div>
+    </div>
+
+    <div class="page-footer">
+      <div class="container">
+        <div class="footer-middle clearfix">
+          <div class="footer-menu">
+            <h3>Другие источники информации</h3>
+            <ul>
+              <li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B5%D1%81%D0%B5%D1%86%D0%BA_(%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%B4%D1%80%D0%BE%D0%BC)" target="_blank">Википедия</a></li>
+              <li><a href="https://vk.com/mirn_online" target="_blank">Группа ВК</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+
+  </body>
+</html>
