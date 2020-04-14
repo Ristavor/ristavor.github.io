@@ -296,8 +296,8 @@ body {
 .asking-form textarea {
   display: block;
   min-height: 120px;
-  min-width: 1020px;
-  max-width: 1020px;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .page-footer {
